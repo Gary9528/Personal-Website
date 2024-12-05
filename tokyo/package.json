@@ -4,13 +4,14 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export -o app",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "@emailjs/browser": "^4.1.0",
     "aos": "^2.3.4",
+    "firebase": "^11.0.1",
     "next": "14.1.0",
     "next-share": "^0.27.0",
     "next-themes": "^0.2.1",

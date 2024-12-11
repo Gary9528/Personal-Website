@@ -9,7 +9,7 @@ const Skills = () => {
       progress: [
         {
           id: 1,
-          skillName: "WordPress",
+          skillName: "Python",
           skillValue: "95",
         },
         {
@@ -32,17 +32,17 @@ const Skills = () => {
         {
           id: 1,
           skillName: "English",
-          skillValue: "90",
+          skillValue: "100",
         },
         {
           id: 2,
-          skillName: "Russian",
-          skillValue: "90",
+          skillName: "Punjabi",
+          skillValue: "80",
         },
         {
           id: 3,
-          skillName: "Arabic",
-          skillValue: "85",
+          skillName: "Hindi",
+          skillValue: "75",
         },
       ],
     },

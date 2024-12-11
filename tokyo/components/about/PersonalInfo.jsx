@@ -6,27 +6,18 @@ const PersonalInfo = () => {
       id: 1,
       colClass: "left",
       info: [
-        {
-          id: 1,
-          name: "Birthday",
-          content: "01.07.1990",
-        },
-        {
-          id: 2,
-          name: "Age",
-          content: "32",
-        },
+
         {
           id: 3,
-          name: "Address",
-          content: "Ave 11, New York, USA",
+          name: "Location",
+          content: "Hudson Valley, NY",
         },
         {
           id: 4,
           name: "Email",
           content: (
             <>
-              <a href="mailto:tokyo@gmail.com">tokyo@gmail.com</a>
+              <a href="mailto:gauravjitchhina@gmail.com">gauravjitchhina@gmail.com</a>
             </>
           ),
         },
@@ -35,7 +26,7 @@ const PersonalInfo = () => {
           name: "Phone",
           content: (
             <>
-              <a href="tel:+77 022 177 05 05">+77 022 177 05 05</a>
+              <a href="tel:+1 845 542 9528">+1 845 542 9528</a>
             </>
           ),
         },
@@ -46,29 +37,19 @@ const PersonalInfo = () => {
       colClass: "right",
       info: [
         {
-          id: 1,
-          name: "Nationality",
-          content: "USA",
-        },
-        {
           id: 2,
-          name: "Study",
-          content: "Univercity of Texas",
+          name: "Education",
+          content: "SUNY University At Buffalo",
         },
         {
           id: 3,
           name: "Degree",
-          content: "Master",
+          content: "Bachelor of Science",
         },
         {
           id: 4,
           name: "Interest",
-          content: "Playing Football",
-        },
-        {
-          id: 5,
-          name: "Freelance",
-          content: "Available",
+          content: "Soccer, Business",
         },
       ],
     },

@@ -15,7 +15,7 @@ import {
 const ShareSocial = () => {
   return (
     <div className="social-share">
-      <FacebookShareButton
+      {/* <FacebookShareButton
         url={"https://www.facebook.com/ibthemes/"}
         quote={
           "We are ib-themes, a quality and dedicated group of individuals who love modern trend like React, Vue and Angular JS Web Templates. We are growing with Modern Web Technologies."
@@ -23,28 +23,28 @@ const ShareSocial = () => {
         hashtag={"#ibthemes"}
       >
         <FacebookIcon size={32} round />
-      </FacebookShareButton>
+      </FacebookShareButton> */}
 
-      <PinterestShareButton
+      {/* <PinterestShareButton
         url={"https://www.pinterest.com/"}
         media={
           "We are ib-themes, a quality and dedicated group of individuals who love modern trend like React, Vue and Angular JS Web Templates. We are growing with Modern Web Technologies."
         }
       >
         <PinterestIcon size={32} round />
-      </PinterestShareButton>
+      </PinterestShareButton> */}
 
-      <TwitterShareButton
+      {/* <TwitterShareButton
         url={"https://twitter.com/ib_themes"}
         title={
           "We are ib-themes, a quality and dedicated group of individuals who love modern trend like React, Vue and Angular JS Web Templates. We are growing with Modern Web Technologies."
         }
       >
         <TwitterIcon size={32} round />
-      </TwitterShareButton>
+      </TwitterShareButton> */}
 
       <LinkedinShareButton
-        url={"https://www.linkedin.com/in/ib-themes-company-469408207/"}
+        url={"www.linkedin.com/in/gary-chhina"}
       >
         <LinkedinIcon size={32} round />
       </LinkedinShareButton>

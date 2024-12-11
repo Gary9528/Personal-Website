@@ -12,21 +12,20 @@ const Home = () => {
             <div
               className="image avatar_img"
               style={{
-                backgroundImage: "url(/img/slider/1.jpg)",
+                backgroundImage: "url(/img/slider/Headshot.jpg)",
               }}
             ></div>
             {/* END AVATAR IMAGE */}
           </div>
           {/* END AVATAR */}
           <div className="details">
-            <h3 className="name">Adriano Smith</h3>
+            <h3 className="name">Gary Chhina</h3>
             <h4 className="typer">
               <ReactTyped
                 strings={[
-                  "Programmer",
-                  "Investigative reporter",
-                  "Photographer",
-                  "Writer",
+                  "Software Engineer",
+                  "Backend Engineer",
+                  "Fullstack Engineer",
                 ]}
                 loop
                 typeSpeed={80}
@@ -34,8 +33,8 @@ const Home = () => {
             </h4>
 
             <p className="job">
-              Creative Photographer based in New York and happy to travel all
-              over Europe to capture photos.
+              Senior CS student at the University at Buffalo focused on backend and 
+              full-stack engineering, passionate about building scalable software.
             </p>
             {/* END JOB */}
             <Social />

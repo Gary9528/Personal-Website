@@ -29,12 +29,12 @@ const Preview = () => {
     {
       id: 1,
       img: "/img/intro/light.png",
-      title: "Light Demo",
+      title: "View in Light Mode",
     },
     {
       id: 2,
       img: "/img/intro/dark.png",
-      title: "Dark Demo",
+      title: "View in Dark Mode",
     },
   ];
 
@@ -53,25 +53,12 @@ const Preview = () => {
           <div className="short_info">
             <img src="/img/logo/dark.png" alt="logo" />
             <h3>
-              Personal Portfolio <strong>React NextJS</strong> Template
+              Welcome to <strong>Gary Chhina's</strong> Personal Website
             </h3>
+            <h3>Choose Your Light/Dark Preference to Navigate to Homepage!</h3>
           </div>
           {/* END SHORT INFO */}
 
-          <div className="tokyo_tm_intro_fixed_price">
-            <span className="anim"></span>
-            <span className="anim"></span>
-            <span className="anim"></span>
-            <a
-              href="https://themeforest.net/user/ib-themes"
-              className="pricing-info anim"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Buy
-            </a>
-          </div>
-          {/* END FIXED PRICE TAG */}
 
           <div className="container">
             <Slider {...settings}>

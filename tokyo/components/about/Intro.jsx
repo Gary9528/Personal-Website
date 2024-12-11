@@ -3,22 +3,18 @@ import React from "react";
 const Intro = () => {
   const introContent = {
     image: "/img/slider/1.jpg",
-    name: "Adriano Smith",
-    designation: "Web Developer",
+    name: "Gary Chhina",
+    designation: "Software Engineer",
     text: (
       <>
-        <p>
-          Hi, my name is Adriano Smith and I began using WordPress when it first
-          began. I’ve spent most of my waking hours for the last ten years
-          designing, programming and operating WordPress sites.
-        </p>
-        <p>
-          One of my specialties is taking an idea from scratch and creating a
-          full-fledged platform. I go beyond to produce sites with a unique,
-          outstanding, contemporary look-and-feel. With extensive knowledge of
-          web mechanics, I’m able to optimize complex integrations to require
-          little-to-no maintenance while running on their own for years.
-        </p>
+<p>
+  Hi, my name is Gary Chhina, and I’m a senior Computer Science student at the University at Buffalo. Over the past few years, I’ve focused on backend engineering and cloud-based development, working with technologies like Google Cloud Platform, Python, and React.
+</p>
+<p>
+  I enjoy building scalable applications and setting up efficient data pipelines that support real-world use. With hands-on experience in backend systems and cloud infrastructure, I’m dedicated to creating solutions that are both reliable and impactful.
+</p>
+
+
       </>
     ),
   };

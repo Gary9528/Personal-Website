@@ -1,7 +1,7 @@
 import Contact from "@/components/contact/Contact";
 import Sidebar from "@/components/sidebar/Sidebar";
 export const metadata = {
-  title: "Contact || Tokyo - Personal Portfolio React Nextjs Template",
+  title: "Contact || Gary Chhina's Personal Website",
 };
 const index = () => {
   return (

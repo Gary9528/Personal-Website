@@ -11,22 +11,22 @@ module.exports = [
     menuName: "About",
     routePath: "/about",
   },
-  {
-    id: 3,
-    icon: "/img/svg/setting.svg",
-    menuName: "Service",
-    routePath: "/service",
-  },
-  {
-    id: 4,
-    icon: "/img/svg/briefcase.svg",
-    menuName: "Portfolio",
-    routePath: "/portfolio",
-  },
+  // {
+  //   id: 3,
+  //   icon: "/img/svg/setting.svg",
+  //   menuName: "Service",
+  //   routePath: "/service",
+  // },
+  // {
+  //   id: 4,
+  //   icon: "/img/svg/briefcase.svg",
+  //   menuName: "Portfolio",
+  //   routePath: "/portfolio",
+  // },
   {
     id: 5,
-    icon: "/img/svg/paper.svg",
-    menuName: "News",
+    icon: "/img/svg/briefcase.svg",
+    menuName: "Project Portfolio",
     routePath: "/news",
   },
   {

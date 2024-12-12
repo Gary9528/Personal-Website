@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Not-found || Tokyo - Personal Portfolio React Nextjs Template",
+  title: "Not-found || Gary Chhina's Personal Website",
 };
 const NotFound = () => {
   return (

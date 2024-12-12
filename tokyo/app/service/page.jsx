@@ -1,7 +1,7 @@
 import Service from "@/components/service";
 import Sidebar from "@/components/sidebar/Sidebar";
 export const metadata = {
-  title: "Service || Tokyo - Personal Portfolio React Nextjs Template",
+  title: "Service || Gary Chhina's Personal Website",
 };
 const index = () => {
   return (

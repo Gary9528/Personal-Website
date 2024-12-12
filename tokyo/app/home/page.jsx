@@ -2,7 +2,7 @@ import Home from "@/components/home/Home";
 
 import Sidebar from "@/components/sidebar/Sidebar";
 export const metadata = {
-  title: "Home || Tokyo - Personal Portfolio React Nextjs Template",
+  title: "Home || Gary Chhina's Personal Website",
 };
 const index = () => {
   return (

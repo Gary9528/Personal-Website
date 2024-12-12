@@ -1,7 +1,7 @@
 import Portfolio from "@/components/portfolio/Portfolio";
 import Sidebar from "@/components/sidebar/Sidebar";
 export const metadata = {
-  title: "Portfolio || Tokyo - Personal Portfolio React Nextjs Template",
+  title: "Portfolio || Gary Chhina's Personal Website",
 };
 const index = () => {
   return (

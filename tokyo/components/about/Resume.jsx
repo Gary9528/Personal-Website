@@ -9,15 +9,15 @@ const Resume = () => {
       resume: [
         {
           id: 1,
-          year: "2017 - 2021",
-          institute: "Valley Central High School",
-          degree: "Honors Diploma",
+          year: "2021 - Spring 2025",
+          institute: "SUNY University At Buffalo",
+          degree: "Bachelor of Science - Computer Science",
         },
         {
           id: 2,
-          year: "2021 - Spring 2025",
-          institute: "SUNY University At Buffalo",
-          degree: "Bachelor of Science",
+          year: "2017 - 2021",
+          institute: "Valley Central High School",
+          degree: "Honors Diploma",
         },
       ],
     },
@@ -28,18 +28,24 @@ const Resume = () => {
       resume: [
         {
           id: 1,
+          year: "September 2024 - Present",
+          institute: "University At Buffalo CSE Dept",
+          degree: "Product Manager",
+        },
+        {
+          id: 2,
           year: "March 2024 - August 2024",
           institute: "Securitas Technology",
           degree: "Backend Software Engineer Intern",
         },
         {
-          id: 2,
+          id: 3,
           year: "May 2022 - January 2024",
           institute: "DBL Express",
           degree: "Technology Intern",
         },
         {
-          id: 3,
+          id: 4,
           year: "2019 - 2021",
           institute: "Nanak LLC",
           degree: "Associate Store Manager",

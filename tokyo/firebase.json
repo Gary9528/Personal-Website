@@ -1,0 +1,15 @@
+{
+    "hosting": {
+      "rewrites": [
+        {
+          "source": "/",
+          "destination": "/home"
+        },
+        {
+          "source": "**",
+          "function": "nextApp"
+        }
+      ]
+    }
+  }
+  

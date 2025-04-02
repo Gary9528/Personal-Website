@@ -18,14 +18,6 @@ const Sidebar = () => {
       <div className="header">
         <div className="header-inner">
           <div className="logo">
-            <Link className="navbar-brand" href="/">
-              <Image
-                width={140}
-                height={20}
-                src="/img/logo/dark.png"
-                alt="brand"
-              />
-            </Link>
           </div>
           {/* End logo */}
 
@@ -51,14 +43,7 @@ const Sidebar = () => {
       <div className={click ? "leftpart active" : "leftpart"}>
         <div className="leftpart_inner">
           <div className="logo">
-            <Link className="navbar-brand" href="/">
-              <Image
-                width={135}
-                height={20}
-                src="/img/logo/dark.png"
-                alt="brand"
-              />
-            </Link>
+
           </div>
           {/* END LOGO */}
 
@@ -87,7 +72,7 @@ const Sidebar = () => {
           </div>
           {/* END MENU */}
 
-          <CopyRight />
+
           {/* END COPYRIGHT */}
         </div>
       </div>

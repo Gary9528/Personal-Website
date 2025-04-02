@@ -1,7 +1,7 @@
-import News from "@/components/news/News";
+import Projects from "@/components/news/Projects";
 import Sidebar from "@/components/sidebar/Sidebar";
 export const metadata = {
-  title: "Blog || Gary Chhina's Personal Website",
+  title: "Project Portfolio || Gary Chhina's Personal Website",
 };
 const index = () => {
   return (
@@ -21,13 +21,13 @@ const index = () => {
                   <div className="tokyo_tm_title">
                     <div className="title_flex">
                       <div className="left">
-                        <span>News</span>
-                        <h3>Latest News</h3>
+                        <span>Projects</span>
+                        <h3>Latest Projects</h3>
                       </div>
                     </div>
                   </div>
                   {/* END TITLE */}
-                  <News />
+                  <Projects />
                 </div>
               </div>
               {/* End .container */}

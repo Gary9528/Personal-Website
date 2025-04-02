@@ -1,90 +1,51 @@
 "use client";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import React from "react";
+import { ReactTyped } from "react-typed";
+import Social from "../Social";
 
-import Link from "next/link";
-import { useTheme } from "next-themes";
-
-const Preview = () => {
-  var settings = {
-    dots: true,
-    arrow: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 2,
-    slidesToScroll: 2,
-    responsive: [
-      {
-        breakpoint: 575,
-        settings: {
-          slidesToScroll: 1,
-          slidesToShow: 1,
-        },
-      },
-    ],
-  };
-
-  const demoItems = [
-    {
-      id: 1,
-      img: "/img/intro/light.png",
-      title: "View in Light Mode",
-    },
-    {
-      id: 2,
-      img: "/img/intro/dark.png",
-      title: "View in Dark Mode",
-    },
-  ];
-
-  const { theme, setTheme } = useTheme();
-
-  // toggle of dark & light mode
-  const handle = (e) => {
-    setTheme(e);
-  };
-
+const Home = () => {
   return (
     <>
-      {/* End page title for seo */}
-      <div className="tokyo_tm_all_wrap">
-        <div className="tokyo_tm_intro">
-          <div className="short_info">
-            <img src="/img/logo/dark.png" alt="logo" />
-            <h3>
-              Welcome to <strong>Gary Chhina's</strong> Personal Website
-            </h3>
-            <h3>Choose Your Light/Dark Preference to Navigate to Homepage!</h3>
+      <div className="tokyo_tm_home">
+        <div className="home_content">
+          <div className="avatar">
+            <div
+              className="image avatar_img"
+              style={{
+                backgroundImage: "url(/img/slider/Headshot.jpg)",
+              }}
+            ></div>
+            {/* END AVATAR IMAGE */}
           </div>
-          {/* END SHORT INFO */}
+          {/* END AVATAR */}
+          <div className="details">
+            <h3 className="name">Gary Chhina</h3>
+            <h4 className="typer">
+              <ReactTyped
+                strings={[
+                  "Software Engineer",
+                  "Backend Engineer",
+                  "Fullstack Engineer",
+                ]}
+                loop
+                typeSpeed={80}
+              />
+            </h4>
 
-
-          <div className="container">
-            <Slider {...settings}>
-              {demoItems.map((item) => {
-                const mode = item.id % 2 === 0 ? "dark" : "light";
-                return (
-                  <div
-                    className="left"
-                    key={item.id}
-                    onClick={() => handle(mode)}
-                  >
-                    <Link href="/home">
-                      <div className="desc">
-                        <img src={item.img} alt="demo item" />
-                        <h3 className="title">{item.title}</h3>
-                      </div>
-                    </Link>
-                  </div>
-                );
-              })}
-            </Slider>
+            <p className="job">
+              Senior CS student at the University at Buffalo focused on backend and 
+              full-stack engineering, passionate about building scalable software.
+            </p>
+            {/* END JOB */}
+            <Social />
           </div>
+          {/* END DETAILS */}
         </div>
+        {/* END HOME CONTENT */}
       </div>
+      {/* END HOME */}
     </>
   );
 };
 
-export default Preview;
+export default Home;

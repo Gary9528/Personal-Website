@@ -26,6 +26,7 @@ const Home = () => {
                   "Software Engineer",
                   "Backend Engineer",
                   "Fullstack Engineer",
+                  "Cybersecurity Analyst",
                 ]}
                 loop
                 typeSpeed={80}
@@ -33,9 +34,7 @@ const Home = () => {
             </h4>
 
             <p className="job">
-              Senior CS student at the University at Buffalo focused on backend and 
-              full-stack engineering, passionate about building scalable software.
-            </p>
+            Full-stack developer with a focus on backend engineering and cybersecurity, building scalable and secure systems with real-world impact.            </p>
             {/* END JOB */}
             <Social />
           </div>

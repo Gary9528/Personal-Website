@@ -7,7 +7,7 @@ import ShareSocial from "../social-share/ShareSocial";
 
 // Modal.setAppElement("#__next");
 
-const News = () => {
+const Projects = () => {
   const [singleData, setSingleData] = useState({});
   const [isOpen, setIsOpen] = useState(false);
 
@@ -123,4 +123,4 @@ const News = () => {
   );
 };
 
-export default News;
+export default Projects;

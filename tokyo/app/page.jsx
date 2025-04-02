@@ -1,10 +1,5 @@
-import Preview from "@/components/preview";
-import React from "react";
-export const metadata = {
-  title: "Preview || Tokyo - Personal Portfolio React Nextjs Template",
-};
-const MainRoot = () => {
-  return <Preview />;
-};
+import { redirect } from 'next/navigation';
 
-export default MainRoot;
+export default function MainRoot() {
+  redirect('/home');
+}
